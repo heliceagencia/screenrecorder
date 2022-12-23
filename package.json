@@ -1,0 +1,7 @@
+{
+  
+  "dependencies": {
+    "type": "module",
+    "googleapis": "^100.0.0"
+  }
+}

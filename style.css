@@ -1,0 +1,86 @@
+.grabar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20% ;
+    padding-top:60px
+}
+
+.grabar button{
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 2px;
+    background-color: #FBBA1A;
+}
+
+.grabar button:hover{
+    background-color: #09ACC0;
+    color:white;
+}
+
+.container button{
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+#video{
+    padding-left: 20%;
+    margin-top: 60px;
+    width: 60%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-image: url("./bg1-8.png");
+}
+
+
+#vidiolink{
+    padding: 10px;
+    background: #09ACC0;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#vidiolink:hover{
+    background: #FBBA1A;
+    color: black;
+}
+
+#grabando{
+    width: 30px;
+    height: 30px;
+    background: red;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.rec{
+	animation-name: pulse;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes pulse{
+	0%{
+		box-shadow: 0px 0px 5px 0px rgba(173,0,0,.3);
+	}
+	65%{
+		background-color: rgba(255, 101, 101, 0.527);
+		box-shadow: 0px 0px 5px 13px rgba(173,0,0,.3);
+	}
+	90%{
+		box-shadow: 0px 0px 5px 13px rgba(173,0,0,0);
+	}
+}
